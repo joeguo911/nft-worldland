@@ -1,0 +1,30 @@
+.footer_container {
+  color: white;
+  padding: 24px 30px;
+  display: flex;
+  font-size: 14px;
+  background-color: rgb(11, 20, 38);
+  .footer-socalmedia, 
+  .footer_middleContainer,
+  .footer_linkContainer {
+    flex: 1;
+    display: flex;
+  }
+  .footer-socalmedia{
+    svg {
+      margin-right: 24px;
+    }
+  }
+  div {
+    display: inline-block;
+  }
+  svg {
+    fill: white;
+  }
+  .footer_linkContainer {
+    a {
+      color: rgb(211, 211, 211);
+      margin-right: 24px;
+    }
+  }
+}
