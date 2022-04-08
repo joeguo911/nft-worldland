@@ -1,0 +1,31 @@
+.image-group {
+  display: flex;
+  width: 100%;
+  padding: 10px 40px;
+  justify-content: center;
+
+  .image-group-item {
+    display: inline-block;
+    margin-right: 10px;
+    color: #FBBD09;
+    font-weight: 600;
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+  .leftArrow, .rightArrow {
+    display: inline-block;
+    width: 50px;
+    height: 360px;
+    margin: 0 10px;
+    background-size: contain !important;
+  }
+  .leftArrow {
+    background: url('../../../public/landingPage/leftArrow.png') no-repeat center;
+  }
+  .rightArrow {
+    background: url('../../../public/landingPage/rightArrow.png') no-repeat center;
+  }
+}

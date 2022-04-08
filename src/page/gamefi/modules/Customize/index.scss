@@ -1,0 +1,45 @@
+.customize {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    height: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFBF00;
+    line-height: 80px;
+    text-align: left;
+    text-indent: 25rem;
+  }
+
+  .customize_content {
+    flex: 1;
+  }
+
+  .form_item {
+    height: 60px;
+    padding-right: 200px;
+    .item_title {
+      text-align: right;
+      color: white;
+      font-size: 14px;
+      font-weight: normal;
+      width: 150px;
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      margin-right: 30px;
+    }
+    select {
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      width: 400px;
+      font-size: 18px;
+      position: relative;
+    }
+  }
+}

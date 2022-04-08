@@ -1,0 +1,58 @@
+.gamefi {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  background: url('../../../public/game/fight.jpeg') center no-repeat;
+  .gamefi-bg-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #071b39;
+    opacity: 0.9;
+  }
+  
+}
+
+.gamefi-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+}
+
+.gamefi-content {
+  flex: 1;
+}
+
+.gameMenu {
+  width: 300px;
+  height: 100%;
+  padding: 40px;
+  background-color:rgba(7, 15, 26, 0.8);
+
+  .gameMenu-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .gameMenu-item {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    padding: 0 10px;
+  }
+  .selected {
+    background-color: #7F7F7F;
+  }
+}

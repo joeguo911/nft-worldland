@@ -1,0 +1,46 @@
+.template {
+  position: relative;
+  padding: 50px 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.template-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+  .card {
+    color: white;
+    width: 47%;
+  }
+}
+
+.card {
+  display: flex;
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  .card-img {
+    width: 200px;
+  }
+  .card-info {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    .card-info__title {
+      color: #FFBF00;
+      height: 50px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .card-info__description {
+
+    }
+  }
+}

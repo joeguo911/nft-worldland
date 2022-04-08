@@ -1,0 +1,25 @@
+.main-title {
+  width: 100%;
+  text-align: center;
+  height: 90px;
+  
+  .main-title__nft,
+  .main-title__worldland {
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .main-title__nft {
+    width: 120px;
+    background-image: url('../../../public/common/nft.png');
+    
+  }
+  .main-title__worldland{
+    width: 400px;
+    background-image: url('../../../public/common/worldland.png');
+  }
+}
